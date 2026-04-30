@@ -70,6 +70,6 @@ pytest tests/ -v
 
 Le projet est conteneurisé.
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 Le port 8501 sera exposé pour accéder à Streamlit.
