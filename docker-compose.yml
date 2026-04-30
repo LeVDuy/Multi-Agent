@@ -1,0 +1,9 @@
+services:
+  multi-agent:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - LM_STUDIO_BASE_URL=http://host.docker.internal:1234/v1
